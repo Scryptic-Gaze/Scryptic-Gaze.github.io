@@ -65,7 +65,7 @@ startQuiz = () => {
 getNewQuestion = () => {
     if (allQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem("yourScore", score);
-        return window.location.assign("https://github.com/Scryptic-Gaze/Scryptic-Gaze.github.io/blob/master/the_end.html");
+        return window.location.assign("");
     }
 
     questionCounter++;
