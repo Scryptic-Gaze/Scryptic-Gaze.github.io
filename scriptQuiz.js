@@ -65,7 +65,7 @@ startQuiz = () => {
 getNewQuestion = () => {
     if (allQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem("yourScore", score);
-        return window.location.assign("");
+        return window.location.assign("C:/Users/Tomislav/Desktop/WorldCup18_project/the_end.html");
     }
 
     questionCounter++;
