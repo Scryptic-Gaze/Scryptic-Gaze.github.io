@@ -42,6 +42,14 @@ a {
 	text-decoration: none;
 }
 
+@media only screen and (max-width: 700px) {
+  li {
+    width: 100%;
+    font-size: 0.6em;
+    padding: 5px;
+  }
+}
+
 /*QUIZ */
 h1 {
 	margin-bottom: 15%;
