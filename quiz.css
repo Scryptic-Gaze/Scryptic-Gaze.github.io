@@ -59,7 +59,7 @@ h2{
 	text-align: center;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
   body, #hud_item {
     width: 100%;
     font-size: 0.6em;
@@ -67,15 +67,15 @@ h2{
   }
 }
 
-@media only screen and (max-width: 700px) {
-  .answer_box {
+@media only screen and (max-width: 600px) {
+  .answer_box, .answer_text {
     width: 100%;
-    font-size: 1.5em;
+    font-size: 1.4em;
     padding: 5px;
   }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
   .box {
   	width: 100vw;
   	height: 100vh;
